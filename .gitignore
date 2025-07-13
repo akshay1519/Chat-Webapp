@@ -1,0 +1,55 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+env/
+
+# Python egg and packaging
+*.egg-info/
+.eggs/
+
+# Test cache and coverage
+.pytest_cache/
+
+# Environment variables / secrets
+.env
+.env.*
+.envrc
+.env.example
+
+# Logs
+*.log
+
+# macOS
+.DS_Store
+
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+
+# Git
+.git/
+
+# SQLite and DB
+*.db
+*.sqlite3
+
+# Ignore compiled Python files in subfolders
+app/**/__pycache__/
+app/**/__pycache__/*.pyc
+
+# Misc
+*.manifest
+*.spec
+
+# Node (if ever used)
+node_modules/
